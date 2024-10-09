@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imobiliária</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/d736482b83.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <img src="assets/img/Logo.png"  alt="Logo">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre a Imobiliária</a></li>
+                <li><a href="#galerias">Galerias</a></li>
+                <li><a href="#contato">Contatos</a></li>
+                <li><a href="#login">Login Moderador</a></li>
+            </ul>
+        </nav>
+        <div class="menu-container"></div>
+            <button class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        <nav class="menu" id="menu">
+            <a href="#features">Features</a>
+            <a href="#sobre">Sobre a empresa</a>
+            <a href="#jogos">Jogos</a>
+            <a href="#rankings">Rankings</a>
+            <a href="#perfil">Perfil</a>
+            <a href="#versoes">Versões</a>
+        </nav>
+    </header>
+
+    <!-- Slideshow Section -->
+    <section id="slideshow">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="assets/img/casa1.jpg" alt="Casa 1" class="slide-img">
+            </div>
+            <div class="slide fade">
+                <img src="assets/img/casa2.jpg" alt="Casa 2" class="slide-img">
+            </div>
+            <div class="slide fade">
+                <img src="assets/img/casa3.jpg" alt="Casa 3" class="slide-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Imobiliária -->
+    <section id="sobre">
+        <h2>Sobre a Imobiliária</h2>
+        <p>Descrição da imobiliária e sua missão.</p>
+    </section>
+
+    <!-- Galerias -->
+    <section id="galerias">
+        <h2>Galerias</h2>
+        <p>Aqui você pode ver fotos das nossas propriedades à venda.</p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Contatos</h2>
+        <p>Informações de contato da imobiliária.</p>
+    </section>
+
+    <!-- Login Moderador -->
+    <section id="login">
+        <h2>Login Moderador</h2>
+        <form action="/login" method="POST">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    <footer>
+        
+        <p><i class="fa-brands fa-whatsapp"></i> Contato - (71)98273-9039</p>
+        <hr class="lhn">
+        <p>Francisco Alexandro &copy; 2024</p>
+        <hr class="lhn">
+        <p><i class="fa-solid fa-envelope"></i>  EMail - Alexandro102@gmail.com</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
